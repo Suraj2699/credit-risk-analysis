@@ -4,7 +4,7 @@ from scipy.special import boxcox1p
 import concurrent.futures
 import datetime
 from src.model_utils import load_models, load_lambda_values, run_prediction
-from src.db_utils import dbinsertion
+# from src.db_utils import dbinsertion
 import warnings
 warnings.filterwarnings('ignore')
 
