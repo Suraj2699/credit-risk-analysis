@@ -177,7 +177,7 @@ if st.button("Check Loan Eligibility"):
         
         #user_info = (created_at, name, email, existing_checking_account_status, duration, credit_history, purpose, credit_amount, savings_account_bonds, present_employment_status, installment_rates, personal_status_sex, other_debtors, present_residence_since, property_status, age, other_installment_plans, housing, bank_existing_credits, job, total_reliable_people, telephone, foreign_worker, prediction)
 
-        dbinsertion(created_at, name, email, existing_checking_account_status, duration, credit_history, purpose, credit_amount, savings_account_bonds, present_employment_status, installment_rates, personal_status_sex, other_debtors, present_residence_since, property_status, age, other_installment_plans, housing, bank_existing_credits, job, total_reliable_people, telephone, foreign_worker, prediction)
+        #dbinsertion(created_at, name, email, existing_checking_account_status, duration, credit_history, purpose, credit_amount, savings_account_bonds, present_employment_status, installment_rates, personal_status_sex, other_debtors, present_residence_since, property_status, age, other_installment_plans, housing, bank_existing_credits, job, total_reliable_people, telephone, foreign_worker, prediction)
 
     except Exception as e:
         st.error(f"Prediction Error: {e}")
