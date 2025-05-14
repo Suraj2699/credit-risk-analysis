@@ -26,5 +26,5 @@ catboost==1.2.8
 xgboost==3.0.0
 streamlit
 setuptools
-mysqlclient
-SQLAlchemy
+# mysqlclient
+# SQLAlchemy
