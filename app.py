@@ -148,7 +148,7 @@ model_mapping = {
     'Random Forest': (models['randomForest'], treefeatures),
     'XGBoost Classifier': (models['xgboost'], originalfeatures),
     'LightGBM Classifier': (models['lightgbm'], originalfeatures),
-    'Catboost Classifier': (models['catboost'], originalfeatures)
+    'CatBoost Classifier': (models['catboost'], originalfeatures)
 }
 
 model = st.sidebar.selectbox(
